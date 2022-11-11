@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 $(window).scroll(function () {
     setTimeout(function () {
         AncorControlMatches();
-    }, 100);
+    });
     // AncorControlMatches();
 });
 
@@ -109,13 +109,13 @@ $(document).ready(function () {
     setTimeout(function () {
         AncorControlMatches();
         $(window).trigger('resize');
-    }, 300);
+    });
 });
 
 function AncorControlMatches() {
     topPos = Math.max(0, $("#the-table").offset().top - $(this).scrollTop());
     if (topPos == 0) {
-        $("#the-table thead").css("top", (topPos+149) + "px");
+        $("#the-table thead").css("top", (topPos+140) + "px");
         $("#the-table thead").css("position", "fixed");
         $("#the-table thead").css("z-index", "50");
         $("#the-table thead").css("background", "#CED4DA");
