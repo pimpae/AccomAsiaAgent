@@ -1274,7 +1274,7 @@
                                             Bangkok, 10110 Bangkok, 
                                         </div>
                                         <div class="cl-97 f-12 mt-2">Ekkamai(850M.)</div>
-                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner">
+                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner" data-bs-toggle="collapse" data-bs-target=".collapse-project-2">
                                             <div>CONTACT OWNER</div>
                                             <i class="bi bi-person-square"></i>
                                         </div>
@@ -1535,7 +1535,7 @@
                                             Bangkok, 10110 Bangkok, 
                                         </div>
                                         <div class="cl-97 f-12 mt-2">Ekkamai(850M.)</div>
-                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner">
+                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner" data-bs-toggle="collapse" data-bs-target=".collapse-project-3">
                                             <div>CONTACT OWNER</div>
                                             <i class="bi bi-person-square"></i>
                                         </div>
@@ -1783,7 +1783,7 @@
                                             Bangkok, 10110 Bangkok, 
                                         </div>
                                         <div class="cl-97 f-12 mt-2">Ekkamai(850M.)</div>
-                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner">
+                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner" data-bs-toggle="collapse" data-bs-target=".collapse-project-4">
                                             <div>CONTACT OWNER</div>
                                             <i class="bi bi-person-square"></i>
                                         </div>
@@ -2031,7 +2031,7 @@
                                             Bangkok, 10110 Bangkok, 
                                         </div>
                                         <div class="cl-97 f-12 mt-2">Ekkamai(850M.)</div>
-                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner">
+                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner" data-bs-toggle="collapse" data-bs-target=".collapse-project-5">
                                             <div>CONTACT OWNER</div>
                                             <i class="bi bi-person-square"></i>
                                         </div>
@@ -2281,7 +2281,7 @@
                                             Bangkok, 10110 Bangkok, 
                                         </div>
                                         <div class="cl-97 f-12 mt-2">Ekkamai(850M.)</div>
-                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner">
+                                        <div class="mt-auto d-flex gap-3 align-items-center f-12 contact-owner" data-bs-toggle="collapse" data-bs-target=".collapse-project-6">
                                             <div>CONTACT OWNER</div>
                                             <i class="bi bi-person-square"></i>
                                         </div>
@@ -2675,7 +2675,10 @@
 
     <!-- multi-collapse collapse-project-1 w-100 py-2 ps-2 collapse show -->
     <script>
-        $('#the-table tbody tr').on( "click", function() {
+        $('#the-table tbody tr .bi.bi-chevron-down.cl-0E').on( "click", function() {
+			$('.multi-collapse.collapse').removeClass('show');  
+		});
+        $('#the-table tbody tr .contact-owner').on( "click", function() {
 			$('.multi-collapse.collapse').removeClass('show');  
 		});
     </script>
