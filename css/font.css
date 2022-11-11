@@ -1,0 +1,116 @@
+.f-14 {
+    font-size: 0.875rem;
+}
+
+.f-12 {
+    font-size: 0.75rem;
+}
+
+.cl-21 {
+    color: #212529;
+}
+
+.cl-97 {
+    color:#979797;
+}
+
+.cl-0E {
+    color: #0E2338;
+}
+
+.cl-D8 {
+    color: #D8D8D8;
+}
+
+.cl-46 {
+    color: #464646;
+}
+
+.cl-FF {
+    color: #FFF;
+}
+
+.cl-00B {
+    color: #00BAC7;
+}
+
+.cl-FFC {
+    color: #FFC007;
+}
+
+.cl-6C {
+    color: #6C757D;
+}
+
+.cl-DC {
+    color: #DC3545;
+}
+
+.cl-F4 {
+    color: #F4F4F4;
+}
+
+.bg-0E {
+    background: #0E2338;
+}
+
+.bg-FF {
+    background: #FFF;
+}
+
+.bg-FD {
+    background: #FD7E14;
+}
+
+.bg-6F {
+    background: #6F42C1;
+}
+
+.bg-F2 {
+    background: #F2F2F2;
+}
+
+.bg-DC {
+    background: #DC3545;
+}
+
+.bg-00B {
+    background: #00BAC7;
+}
+
+.bd-top-CE {
+    border-top: 1px solid #CED4DA;
+}
+
+.bd-bottom-21 {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.12);
+}
+
+.bd-rd-top-left-9 {
+    border-top-left-radius: 9px;
+}
+
+.bd-rd-top-right-9 {
+    border-top-right-radius: 9px;
+}
+
+.bd-rd-bottom-left-9 {
+    border-bottom-left-radius: 9px;
+}
+
+.bd-rd-bottom-right-9 {
+    border-bottom-right-radius: 9px;
+}
+
+.bd-bottom-width-0 {
+    border-bottom-width: 0px !important;
+}
+
+.bd-close-modal {
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+.fw-400 {
+    font-weight: 400 !important;
+}

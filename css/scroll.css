@@ -1,0 +1,66 @@
+.scroll-custom::-webkit-scrollbar {
+    width : 0px;
+    height: 0px;
+}
+
+/* Track */
+.scroll-custom::-webkit-scrollbar-track {
+    border-radius   : 50px;
+    background-color: #F7F7F7;
+}
+
+/* Handle */
+.scroll-custom::-webkit-scrollbar-thumb {
+    background   : #CFCFCF;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-custom::-webkit-scrollbar-thumb:hover {
+    background: #CFCFCF;
+}
+
+.scroll-custom-search::-webkit-scrollbar {
+    width : 8px;
+    height: 10px;
+}
+
+/* Track */
+.scroll-custom-search::-webkit-scrollbar-track {
+    border-radius   : 4px;
+    border: 1px solid #c4c4c4;
+    background-color: #FFF;
+}
+
+/* Handle */
+.scroll-custom-search::-webkit-scrollbar-thumb {
+    background   : rgba(0, 0, 0, 0.51);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-custom-search::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.51);
+}
+
+.scroll-custom-comment::-webkit-scrollbar {
+    width : 4px;
+    height: 2px;
+}
+
+/* Track */
+.scroll-custom-comment::-webkit-scrollbar-track {
+    border-radius   : 4px;
+    background-color: #FFF;
+}
+
+/* Handle */
+.scroll-custom-comment::-webkit-scrollbar-thumb {
+    background   : #CED4DA;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll-custom-comment::-webkit-scrollbar-thumb:hover {
+    background: #CED4DA;
+}

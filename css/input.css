@@ -1,0 +1,190 @@
+.form-control-custom {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 0rem 1.55rem 0rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: #F4F4F4;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control-custom::placeholder {
+    color: #6C757D;
+}
+
+.form-control-custom:focus {
+    background: #FFF;
+    border: 1px solid #00BAC7;
+}
+
+.form-control-custom:focus.form-control-custom::placeholder {
+    color: #212529;
+}
+
+.form-control-custom:focus-visible {
+    outline: 0px;
+}
+
+.icon-input-end-up {
+    position: absolute;
+    top: 17%;
+    right: 5%;
+    color: #2E3A59;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.icon-input-end-down {
+    position: absolute;
+    top: 37%;
+    right: 5%;
+    color: #2E3A59;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.icon-input-end {
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.form-control-custom:focus ~ .icon-input-end {
+    transform: rotate(-180deg);
+}
+
+.form-control-custom:focus ~ .icon-input-end-up {
+    transform: rotate(-180deg);
+}
+
+.form-control-custom:focus ~ .icon-input-end-down {
+    transform: rotate(-180deg);
+}
+
+.group-input-custom {
+    position: relative;
+    width: 100%;
+}
+
+.icon-dots {
+    background: #00BAC7;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+}
+
+.icon-input-start {
+    position: absolute;
+    top: 37%;
+    left: 3%;;
+}
+
+.icon-input-end {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: #2E3A59;
+    font-size: 1rem;
+}
+
+.data-list-custom {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    max-height: 40vh;
+    display: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(44, 63, 88, 0.35);
+    border-radius: 14px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.data-list-custom-for-dropdown {
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.form-control-custom:not(:placeholder-shown):focus + .data-list-custom {
+    display: block;
+}
+
+.data-list-custom {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item-data-list {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.12);
+}
+
+.content-search {
+    list-style: none;
+    margin: 0px;
+    padding: 0.5rem 1.5rem 1rem 1.5rem;
+}
+
+.title-search {
+    font-size: 1rem;
+    color: #212529;
+}
+
+.sub-title-search {
+    font-size: 0.875rem;
+    color: #979797;
+    margin-top: 0.5rem;
+}
+
+.item-search:hover  {
+    background-color: #F4F4F4;
+}
+
+.item-search .desc-search {
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #212529;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.form-check-input:checked {
+    background-color: #00BAC7;
+    border-color: #00BAC7;
+}
+
+.line-input-range {
+    width: 14px;
+    border: 1px solid #464646;
+    background-color: #464646;
+}
+
+.dropdown-item-custom:focus, .dropdown-item-custom:hover {
+    color: #212121;
+    background-color: #e9ecef;
+}
+
+.form-comment {
+    width: 295px;
+    font-size: 0.875rem;
+}
+
+.form-check {
+    min-height: 0rem !important;
+}

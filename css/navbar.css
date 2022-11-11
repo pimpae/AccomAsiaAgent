@@ -1,0 +1,182 @@
+body {
+    background: #F1F5F7;
+    font-family: 'Radio Canada', 'Sarabun' !important;
+}
+
+main {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Radio Canada', 'Sarabun' !important;
+}
+
+.left-menu {
+    width: 50px;
+    height: 100%;
+    background: #0E2338;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.main-content {
+    margin-left: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 0rem 3rem 1rem;
+}
+
+.content-logo {
+    padding: 1rem 0.5rem;
+    width: 100%;
+    height: 48px;
+}
+
+.logo {
+    width: 34px;
+}
+
+.content-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: calc(100% - 48px);
+}
+
+.menu-page {
+    list-style: none;
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.122206);
+    height: 100%;
+    width: 100%;
+    /* overflow-y: auto;
+    overflow-x: hidden; */
+}
+
+.item-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0.75rem 0rem;
+    font-size: 1.5rem;
+}
+
+.item-page:hover {
+    background: rgba(0, 186, 199, 0.12);
+}
+
+.item-page a {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.item-page a:hover {
+    border-left: 3px solid #00BAC7;
+}
+
+.active-page {
+    background: rgba(0, 186, 199, 0.12);
+}
+
+.active-page a {
+    border-left: 3px solid #00BAC7;
+}
+
+.menu-common {
+    list-style: none;
+    margin: 0.5rem 0rem 0rem 0rem;
+    padding: 0.5rem 0rem 1.5rem 0rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.122206);
+}
+
+.item-common {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0.75rem 0rem;
+    font-size: 1.5rem;
+}
+
+.item-common:hover {
+    background: rgba(0, 186, 199, 0.12);
+}
+
+.item-common .text-common {
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.item-common .text-common:hover {
+    border-left: 3px solid #00BAC7;
+}
+
+.item-common .text-common {
+    text-decoration: none;
+    background: linear-gradient(320.51deg, #FFFFFF -24.89%, #00BAC7 73.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+
+.profile-menu {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: linear-gradient(320.51deg, #FFFFFF -24.89%, #00BAC7 73.5%);
+    cursor: pointer;
+    position: relative;
+}
+
+.profile-menu.show {
+    border: 3px solid #FFFFFF;
+}
+
+.profile-name {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-size-custom {
+    width: 210px;
+}
+
+.dropdown-item-text-custom {
+    display: block;
+    padding: 0.25rem 1rem;
+    color: #212529;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dropdown-item-custom {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #212529 !important;
+    text-align: start !important;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
