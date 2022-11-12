@@ -102,7 +102,7 @@ $(window).scroll(function () {
     setTimeout(function () {
         AncorControlMatches();
     });
-    // AncorControlMatches();
+        AncorControlMatches();
 });
 
 $(document).ready(function () {

@@ -331,3 +331,59 @@
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
     font-size: 13px;
 }
+.view-text2{ 
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    font-size: 13px;
+    background-color: #F1F5F7;
+}
+.view-text3{ 
+    color: #0E2338 !important;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    font-size: 13px;
+    background-color: #F1F5F7;
+    margin-top: 15px;
+}
+.collapse.multi-collapse table tbody tr td:nth-child(2){
+    vertical-align: top;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.cl-0E .share-content{
+    background-color: #fff;
+}
+.cl-0E.share-content:hover{
+    color: #0E2338;
+}
+.flip-menu{
+    position: absolute;
+    z-index: 9999 !important;
+    left: 62px;
+    top: 0;
+    font-size: 28px;  
+    cursor: pointer;
+}
+.main-content { 
+    padding-top: 3rem !important;
+}
+.left-menu.active{
+    width: 250px; 
+}
+.main-content.active{
+    margin-left: 250px !important; 
+}
+.flip-menu.active{ 
+    left: 260px !important; 
+}
+.left-menu.active .item-page a{
+    text-align: left;
+    padding-left: 12px;
+}
+.dropdown-item-custom.active{
+    font-weight: bold;
+}
