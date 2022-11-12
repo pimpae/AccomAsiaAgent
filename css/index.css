@@ -380,10 +380,74 @@
 .flip-menu.active{ 
     left: 260px !important; 
 }
-.left-menu.active .item-page a{
-    text-align: left;
-    padding-left: 12px;
-}
 .dropdown-item-custom.active{
     font-weight: bold;
+}
+
+
+
+
+.left-menu.active .content-menu ul li a{
+    text-align: left;
+    padding-left: 12px;
+    position: relative;
+}
+.left-menu .content-menu ul li a span{
+    display: none;
+}
+.left-menu.active .content-menu ul li a span{
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    left: 50px;
+    top: 6px;
+}
+
+.left-menu .content-menu ul li a p{
+    display: none;
+}
+.left-menu.active .content-menu ul li a p{
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    left: 50px;
+    top: 6px;
+    color: #fff !important;
+    background: none !important;
+    -webkit-text-fill-color: unset !important
+}
+.left-menu.active .content-menu ul li .text-common{ 
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+.left-menu.active .content-menu ul li .text-common{ 
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+.item-common .text-common i{
+    text-decoration: none !important;
+    background: linear-gradient(320.51deg, #FFFFFF -24.89%, #00BAC7 73.5%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    width: 100% !important; 
+}
+.item-common {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-wrap: nowrap;
+}
+.user-profilex{
+    margin-left: 7px;
+    
+}
+.user-profilex p{
+    font-size: 16px;
+    position: absolute;
+    left: 50px;
+    top: 6px;
+    color: #fff !important;
+    width: 180px;
 }
