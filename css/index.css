@@ -392,10 +392,10 @@
     padding-left: 12px;
     position: relative;
 }
-.left-menu .content-menu ul li a span{
+.left-menu .content-menu ul li a p{
     display: none;
 }
-.left-menu.active .content-menu ul li a span{
+.left-menu.active .content-menu ul li a p{
     display: block;
     font-size: 16px;
     position: absolute;
