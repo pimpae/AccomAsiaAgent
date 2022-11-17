@@ -450,4 +450,14 @@
     top: 6px;
     color: #fff !important;
     width: 180px;
+    display: none;
+}
+.left-menu.active .user-profilex p{ 
+    display: block;
+}
+.img-timeline img{
+    border-radius: 100%;
+}
+.text-space .flex-column{
+    flex-direction: row !important;
 }
